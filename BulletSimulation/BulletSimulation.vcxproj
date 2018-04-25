@@ -150,7 +150,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Lib\Common\Time.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Lib\Window\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lib\Common\Time.h" />
+    <ClInclude Include="Lib\Window\Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
